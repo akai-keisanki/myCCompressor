@@ -1,0 +1,1 @@
+#include "../include/compressors/simple_rle.h"
