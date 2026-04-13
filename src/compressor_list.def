@@ -1,1 +1,2 @@
 ADD_COMPRESSOR(simple_rle)
+ADD_COMPRESSOR(rle)

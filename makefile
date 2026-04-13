@@ -13,4 +13,4 @@ obj/%.o: src/%.c
 	$(CC) -c -o $@ $^
 
 clean:
-	rm -rf mycompressor obj
+	rm -rf $(TARGET) obj

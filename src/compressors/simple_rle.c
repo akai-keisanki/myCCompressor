@@ -6,15 +6,15 @@
 
 signed int simple_rle_compress(FILE *out, FILE *in)
 {
-  int c;
-  int prev = getc(in);
+  signed int c;
+  signed int prev = getc(in);
   unsigned char count = 1;
 
   while (prev != EOF)
   {
     c = getc(in);
 
-    if (c == prev && count < 10)
+    if (c == prev && count < 0xFF)
       ++count;
     else
     {
