@@ -1,4 +1,4 @@
-# myCCompressor
+# ![`myccompressor` logo](img/myccompressor_icon.png) myCCompressor
 ![created at](https://img.shields.io/github/created-at/akai-keisanki/myCCompressor)
 ![license](https://img.shields.io/github/license/akai-keisanki/myCCompressor)
 ![release](https://img.shields.io/github/v/release/akai-keisanki/myCCompressor)
